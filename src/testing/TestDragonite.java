@@ -1,10 +1,9 @@
 package testing;
-/*
+
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import model.Charizard;
 import model.Dragonite;
 
 public class TestDragonite {
@@ -14,9 +13,9 @@ public class TestDragonite {
 		String temp = "Dragonite is capable of flying faster than the speed of sound. It is a kindhearted Pokémon with human-like intelligence. It shows signs of altruism.";
 		assertEquals(temp,p.getCharacteristics());		
 		try {
-			Dragonite p = new Dragonite(null,0,null,null,null,0);
+			Dragonite p2 = new Dragonite(null,0,null,null,null,0);
 			temp = null;
-			p1.getCharacteristics();
+			p2.getCharacteristics();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -29,9 +28,9 @@ public class TestDragonite {
 		String temp = "DRAGON";
 		assertEquals(temp,p.getType());		
 		try {
-			Dragonite p = new Dragonite(null,0,null,null,null,0);
+			Dragonite p2 = new Dragonite(null,0,null,null,null,0);
 			temp = null;
-			p1.getType();
+			p2.getType();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -44,9 +43,9 @@ public class TestDragonite {
 		String temp = "DRATINI";
 		assertEquals(temp,p.getEvolution());		
 		try {
-			Dragonite p = new Dragonite(null,0,null,null,null,0);
+			Dragonite p2 = new Dragonite(null,0,null,null,null,0);
 			temp = null;
-			p1.getEvolution();
+			p2.getEvolution();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -59,13 +58,13 @@ public class TestDragonite {
 		int temp = 270;
 		assertEquals(temp,p.getBaseExp());		
 		try {
-			Dragonite p = new Dragonite(null,0,null,null,null,0);
+			Dragonite p2 = new Dragonite(null,0,null,null,null,0);
 			temp = 0;
-			p1.getBaseExp();
+			p2.getBaseExp();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
 }
-*/
+

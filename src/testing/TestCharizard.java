@@ -1,11 +1,10 @@
 package testing;
 
-/*
+
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import model.Bulbasaur;
 import model.Charizard;
 
 public class TestCharizard {
@@ -15,9 +14,9 @@ public class TestCharizard {
 		String temp = "Charizard is fit and strong and has the ability to soar up to ridiculous heights. With a single breath of fire, it can burn down forests and melt gigantic glaciers.";
 		assertEquals(temp,p.getCharacteristics());		
 		try {
-			Charizard p = new Charizard(null,0,null,null,null,0);
+			Charizard p2 = new Charizard(null,0,null,null,null,0);
 			temp = null;
-			bulb.getCharacteristics();
+			p2.getCharacteristics();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -30,9 +29,9 @@ public class TestCharizard {
 		String temp = "FIRE";
 		assertEquals(temp,p.getType());		
 		try {
-			Charizard p = new Charizard(null,0,null,null,null,0);
+			Charizard p2 = new Charizard(null,0,null,null,null,0);
 			temp = null;
-			p1.getType();
+			p2.getType();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -45,9 +44,9 @@ public class TestCharizard {
 		String temp = "CHARMELEON";
 		assertEquals(temp,p.getEvolution());		
 		try {
-			Charizard p = new Charizard(null,0,null,null,null,0);
+			Charizard p12 = new Charizard(null,0,null,null,null,0);
 			temp = null;
-			p1.getEvolution();
+			p12.getEvolution();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -59,13 +58,13 @@ public class TestCharizard {
 		int temp = 240;
 		assertEquals(temp,p.getBaseExp());		
 		try {
-			Charizard p = new Charizard(null,0,null,null,null,0);
+			Charizard p12 = new Charizard(null,0,null,null,null,0);
 			temp = 0;
-			p1.getBaseExp();
+			p12.getBaseExp();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
 }
-*/
+
